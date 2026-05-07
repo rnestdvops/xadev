@@ -1,0 +1,281 @@
+/* ═══════════════════════════════════════════════
+   xAdEv — Custom Theme for Starlight
+   Explorar · Adaptar · Evolucionar
+   ═══════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap');
+
+/* ── Starlight CSS Variables Override ── */
+:root {
+  --sl-font: 'Outfit', system-ui, sans-serif;
+
+  /* Accent: electric lime / chartreuse */
+  --sl-color-accent-low:  #1a2400;
+  --sl-color-accent:      #b4dc45;
+  --sl-color-accent-high: #d4ef7a;
+
+  /* Text */
+  --sl-color-white:  #dfe5d9;
+  --sl-color-gray-1: #c4cbbe;
+  --sl-color-gray-2: #96a48e;
+  --sl-color-gray-3: #6b7a63;
+  --sl-color-gray-4: #3a4535;
+  --sl-color-gray-5: #22291e;
+  --sl-color-gray-6: #141a10;
+  --sl-color-black:  #0b0d0b;
+
+  /* Backgrounds (dark mode) */
+  --sl-color-bg:          #0b0d0b;
+  --sl-color-bg-nav:      #101310;
+  --sl-color-bg-sidebar:  #101310;
+  --sl-color-bg-inline-code: #1e2419;
+  --sl-color-hairline-light: rgba(255,255,255,0.06);
+  --sl-color-hairline:       rgba(255,255,255,0.10);
+
+  /* Typography sizes */
+  --sl-text-h1: 2.5rem;
+  --sl-text-h2: 1.6rem;
+  --sl-text-h3: 1.25rem;
+  --sl-text-body: 1rem;
+  --sl-line-height: 1.8;
+  --sl-line-height-headings: 1.15;
+}
+
+/* ── Force dark mode always ── */
+[data-theme='light'],
+[data-theme='dark'],
+:root {
+  color-scheme: dark;
+}
+
+/* ── Logo / Brand ── */
+.site-title {
+  font-family: 'Cormorant Garamond', serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  color: var(--sl-color-white) !important;
+}
+
+/* Colorear las letras del logo: x verde, Ev gris */
+.site-title span:first-child::first-letter {
+  color: var(--sl-color-accent);
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: var(--sl-line-height-headings);
+}
+
+h1 { font-size: var(--sl-text-h1); }
+h2 {
+  font-size: var(--sl-text-h2);
+  border-bottom: 1px solid var(--sl-color-hairline);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+/* ── Body text ── */
+.sl-markdown-content p,
+.sl-markdown-content li {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: var(--sl-line-height);
+  color: var(--sl-color-gray-2);
+}
+
+.sl-markdown-content strong {
+  font-weight: 500;
+  color: var(--sl-color-white);
+}
+
+/* ── Navigation sidebar ── */
+.sidebar-content {
+  background: var(--sl-color-bg-sidebar) !important;
+}
+
+/* Section group labels */
+.group-label {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: var(--sl-color-gray-3) !important;
+}
+
+/* Nav items */
+a[aria-current='page'] {
+  background: rgba(180, 220, 69, 0.08) !important;
+  border-right: 2px solid var(--sl-color-accent) !important;
+  color: var(--sl-color-accent) !important;
+  font-weight: 500 !important;
+}
+
+/* ── Top nav bar ── */
+header.header {
+  background: var(--sl-color-bg-nav) !important;
+  border-bottom: 1px solid var(--sl-color-hairline) !important;
+}
+
+/* ── Content area ── */
+.content-panel {
+  background: var(--sl-color-bg) !important;
+}
+
+/* ── Aside / callouts ── */
+.starlight-aside {
+  border-left: 3px solid var(--sl-color-accent) !important;
+  background: rgba(180, 220, 69, 0.06) !important;
+  border-radius: 0 8px 8px 0;
+}
+
+.starlight-aside--note {
+  border-left-color: var(--sl-color-accent) !important;
+}
+
+/* ── Code blocks ── */
+pre, code {
+  font-size: 0.875rem;
+  border-radius: 6px;
+}
+
+pre {
+  background: var(--sl-color-bg-inline-code) !important;
+  border: 1px solid var(--sl-color-hairline) !important;
+}
+
+/* ── Tables ── */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+th {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-3);
+  border-bottom: 1px solid var(--sl-color-hairline);
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+
+td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--sl-color-hairline-light);
+  color: var(--sl-color-gray-2);
+}
+
+tr:last-child td { border-bottom: none; }
+
+/* ── Hero (home page) ── */
+.hero {
+  border-bottom: 1px solid var(--sl-color-hairline);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero > .tagline {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: var(--sl-color-gray-2);
+  max-width: 52ch;
+}
+
+/* ── Pagination ── */
+.pagination-links a {
+  border: 1px solid var(--sl-color-hairline) !important;
+  background: var(--sl-color-bg-nav) !important;
+  border-radius: 8px;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.pagination-links a:hover {
+  border-color: var(--sl-color-accent) !important;
+  background: rgba(180, 220, 69, 0.06) !important;
+}
+
+/* ── Badge for CC license ── */
+.cc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--sl-color-gray-3);
+  border: 1px solid var(--sl-color-hairline);
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+}
+
+/* ── Keyword/tag pills ── */
+.tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--sl-color-hairline);
+  color: var(--sl-color-gray-3);
+  margin: 2px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.tag.accent {
+  border-color: rgba(180, 220, 69, 0.3);
+  color: #8aaa32;
+}
+
+/* ── Right TOC ── */
+starlight-toc nav summary,
+.right-sidebar-panel h2 {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--sl-color-gray-3) !important;
+}
+
+/* ── Footer ── */
+footer {
+  border-top: 1px solid var(--sl-color-hairline) !important;
+  font-size: 0.8rem;
+  color: var(--sl-color-gray-3) !important;
+}
+
+/* ── Last updated ── */
+.meta time { color: var(--sl-color-gray-3); font-size: 0.78rem; }
+
+/* ── Horizontal rule ── */
+hr {
+  border: none;
+  border-top: 1px solid var(--sl-color-hairline);
+  margin: 2rem 0;
+}
+
+/* ── Blockquote ── */
+blockquote {
+  border-left: 3px solid var(--sl-color-accent);
+  background: rgba(180, 220, 69, 0.04);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: var(--sl-color-gray-2);
+}
+
+/* ── Search ── */
+site-search button[data-open-modal] {
+  border: 1px solid var(--sl-color-hairline) !important;
+  background: var(--sl-color-bg-nav) !important;
+  border-radius: 6px !important;
+}
