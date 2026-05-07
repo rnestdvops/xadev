@@ -28,7 +28,7 @@ export default defineConfig({
         {
           label: 'Inicio',
           items: [
-            { label: 'Inicio', slug: 'index' },
+            { label: 'Inicio', link: '/' },
             { label: 'Feedback y colaboración', slug: 'feedback' },
           ],
         },
