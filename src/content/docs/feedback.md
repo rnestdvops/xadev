@@ -3,10 +3,20 @@ title: "Feedback y colaboración"
 description: "Cómo contribuir al modelo xAdEv."
 ---
 
-:::note[Contenido en migración]
-Esta página está siendo migrada desde la wiki original. El contenido completo estará disponible próximamente.
+¿Tenés experiencia con modelos organizativos adaptativos? ¿Querés aportar al desarrollo del modelo xAdEv?
 
-Podés consultar la versión original en: [Feedback y colaboración](https://xadev.wiki/doku.php/wiki:sta:for)
-:::
+Esta sección está pensada para quienes quieran colaborar con el equipo Core compartiendo sus aprendizajes, casos de adopción o conocimiento sobre los temas tratados en esta wiki.
 
-*Última modificación en la wiki original: ver [xadev.wiki](https://xadev.wiki)*
+## Cómo colaborar
+
+Para ponerte en contacto con el equipo de xAdEv podés completar el formulario en [xadev.wiki](https://xadev.wiki/doku.php/wiki:sta:for) indicando:
+
+- Tu nombre
+- Correo electrónico
+- Ocupación / rol actual
+- Experiencia previa con xAdEv (si tenés)
+- Disponibilidad para colaborar con el equipo Core
+
+## Licencia del contenido
+
+Todo el contenido de esta wiki está disponible bajo licencia **CC Attribution-Share Alike 4.0 International**, lo que permite compartirlo y adaptarlo siempre que se atribuya la fuente original.
