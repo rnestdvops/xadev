@@ -17,7 +17,6 @@ Se utilizan múltiples maneras de aproximarse a estos diseños, en particular:
 
 - **Cell Structure Design** — [redforty2.com/cellstructuredesign](https://www.redforty2.com/cellstructuredesign)
 - **Team Topologies** — [teamtopologies.com/key-concepts](https://teamtopologies.com/key-concepts)
-- **UnFix** — [unfix.com/principles](https://unfix.com/principles)
 
 Usamos como rector el concepto de **Cell Structure Design** y se enriquece mediante conceptos de flujos, plataformas, interacciones, interfases, conformación de equipos y redarquización.
 
@@ -37,7 +36,7 @@ Los equipos consideran su capacidad y se modifican a sí mismos, evolucionando d
 
 ## Selección de roles en equipos
 
-Ver cómo [seleccionar roles en equipos utilizando el enfoque UnFix →](/aprendizajes/asignacion-roles/)
+Ver cómo [seleccionar y asignar roles en equipos →](/aprendizajes/asignacion-roles/)
 
 ## Los 10 Pasos en síntesis
 
@@ -54,4 +53,4 @@ Ver cómo [seleccionar roles en equipos utilizando el enfoque UnFix →](/aprend
 **Ver también:**
 - [Open Spaces de Adaptación](/evolucion/open-spaces-adaptacion/)
 - [Equipos y Roles: Periferia y Centro](/equipos/periferia-centro/)
-- [Asignación de Roles — UnFix approach](/aprendizajes/asignacion-roles/)
+- [Asignación de Roles en Equipos](/aprendizajes/asignacion-roles/)

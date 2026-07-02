@@ -1,6 +1,6 @@
 ---
-title: "Asignación de Roles en Equipos — UnFix"
-description: "Cómo seleccionar y asignar roles en equipos usando el enfoque UnFix."
+title: "Asignación de Roles en Equipos"
+description: "Cómo seleccionar y asignar roles en equipos dentro de organizaciones adaptativas."
 ---
 
 La asignación de roles describe cómo las personas obtienen un rol o posición en un equipo y su membresía en estructuras organizacionales.
@@ -27,4 +27,3 @@ Una persona pasa automáticamente a un rol como resultado de un proceso de rotac
 
 ---
 
-*Fuente: UnFix — Roles y Asignación en Equipos*
