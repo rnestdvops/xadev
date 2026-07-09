@@ -9,12 +9,24 @@
 :root {
   --sl-font: 'Outfit', system-ui, sans-serif;
 
-  /* Accent: electric lime / chartreuse */
+  /* Typography sizes (shared) */
+  --sl-text-h1: 2.5rem;
+  --sl-text-h2: 1.6rem;
+  --sl-text-h3: 1.25rem;
+  --sl-text-body: 1rem;
+  --sl-line-height: 1.8;
+  --sl-line-height-headings: 1.15;
+}
+
+/* ── Dark mode variables ── */
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+
   --sl-color-accent-low:  #1a2400;
   --sl-color-accent:      #b4dc45;
   --sl-color-accent-high: #d4ef7a;
 
-  /* Text */
   --sl-color-white:  #dfe5d9;
   --sl-color-gray-1: #c4cbbe;
   --sl-color-gray-2: #96a48e;
@@ -24,28 +36,37 @@
   --sl-color-gray-6: #141a10;
   --sl-color-black:  #0b0d0b;
 
-  /* Backgrounds (dark mode) */
-  --sl-color-bg:          #0b0d0b;
-  --sl-color-bg-nav:      #101310;
-  --sl-color-bg-sidebar:  #101310;
+  --sl-color-bg:             #0b0d0b;
+  --sl-color-bg-nav:         #101310;
+  --sl-color-bg-sidebar:     #101310;
   --sl-color-bg-inline-code: #1e2419;
   --sl-color-hairline-light: rgba(255,255,255,0.06);
   --sl-color-hairline:       rgba(255,255,255,0.10);
-
-  /* Typography sizes */
-  --sl-text-h1: 2.5rem;
-  --sl-text-h2: 1.6rem;
-  --sl-text-h3: 1.25rem;
-  --sl-text-body: 1rem;
-  --sl-line-height: 1.8;
-  --sl-line-height-headings: 1.15;
 }
 
-/* ── Force dark mode always ── */
-[data-theme='light'],
-[data-theme='dark'],
-:root {
-  color-scheme: dark;
+/* ── Light mode variables ── */
+[data-theme='light'] {
+  color-scheme: light;
+
+  --sl-color-accent-low:  #e8f5b0;
+  --sl-color-accent:      #5a8700;
+  --sl-color-accent-high: #3d5c00;
+
+  --sl-color-white:  #1a1f14;
+  --sl-color-gray-1: #2d3528;
+  --sl-color-gray-2: #445040;
+  --sl-color-gray-3: #6b7a63;
+  --sl-color-gray-4: #9aaa92;
+  --sl-color-gray-5: #cdd5c9;
+  --sl-color-gray-6: #e8ece5;
+  --sl-color-black:  #f5f7f3;
+
+  --sl-color-bg:             #ffffff;
+  --sl-color-bg-nav:         #f5f7f3;
+  --sl-color-bg-sidebar:     #f5f7f3;
+  --sl-color-bg-inline-code: #edf2ea;
+  --sl-color-hairline-light: rgba(0,0,0,0.06);
+  --sl-color-hairline:       rgba(0,0,0,0.10);
 }
 
 /* ── Logo / Brand ── */
