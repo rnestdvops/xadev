@@ -1,64 +1,72 @@
 ---
 title: "Detalle de Equipos y Roles"
-description: "Descripción detallada de todos los equipos y roles del modelo."
+description: "Referencia rápida de todos los equipos y roles del modelo xAdEv con sus responsabilidades clave."
 ---
 
-La evolución continua se desarrolla mediante la interacción de múltiples equipos y roles de centro y periferia. Los equipos funcionan como habilitadores temporales, con duración aproximada de hasta 2 ciclos trimestrales.
+Referencia rápida de los equipos y roles del modelo. Para la descripción completa ver [Equipos y Roles de la Evolución →](/equipos/periferia-centro/).
 
 ## Roles de Facilitación
 
-### Evolution Lead
+### Evolution Mentor
 
-- Transmitir principios y valores de agilidad empresarial
-- Facilitar la estrategia con sponsors
-- Impulsar el sentido de urgencia
-- Establecer mecanismos orgánicos de evolución
-- Generar disrupciones constructivas
+- Custodia la calidad del tema y la invitación del Sponsor (asiste, no reemplaza)
+- Facilita la generación previa de sesiones
+- Transmite principios y valores de agilidad empresarial
+- Impulsa el Sentido de Urgencia
+- Genera irritaciones constructivas (Visión · Urgencia · Irritaciones)
 
-### Evolution Coach
+### Evolution Tutor
 
-- Facilitar creación de modelos operativos con Mission Teams
-- Mentorear nuevos facilitadores
-- Entrenar y desafiar bloqueos organizacionales
-- Sostener principios de agilidad empresarial
-- Fomentar autonomía de equipos
+- OpenSpace Facilitator durante los eventos — presente e invisible
+- Facilita con los Mission Teams la creación de modelos operativos
+- Coachea a nuevos facilitadores y roles
+- Sostiene principios de agilidad empresarial durante el timebox
 
 ## Roles de Ejecución
 
-### Sponsors
+### Sponsor *(del Open Space)*
 
-- Responsables de estrategia
-- Crean y comunican sentido de urgencia y propósito
-- Ideólogos de acuerdos de exploración
-- Evalúan métricas de evolución
-- Impulsan temas de densidad social
+- Una sola persona con autoridad formal suficiente
+- Escribe personalmente el tema y la invitación
+- Abre y cierra el evento y el Prep Day
+- Participa en sesiones como cualquier otra persona
+
+### Core Team y sponsors de área
+
+- Representativo de distintas áreas de impacto
+- Proponen sesiones en generación previa (en igualdad de condiciones)
+- Contraparte de negociación de flips en su territorio
+- Habilitan — no dirigen — los streams
 
 ### Stakeholders
 
-- Afectados por ciclos de evolución
-- Participan en demostraciones de equipos
-- Establecen restricciones y habilitadores
-
-### Team Members
-
-- Actúan como diseñadores o adoptantes
-- Diseñan y ejecutan modelos operativos continuamente
-- Poseen cargas cognitivas apropiadas
-
-## Equipos Integrados
+- Afectados por ciclos de Evolución
+- Participan en el Open Space de cierre
+- Establecen restricciones o habilitadores
 
 ### Mission Teams
 
-Equipos habilitadores temporales (máximo 180 días) responsables de táctica y operación.
+- Temporales, nacen en el Prep Day por auto-selección
+- Ejecutan los 10-Pasos (*work the system*)
+- Facilitan el abordaje de los Adopting Teams al modelo operativo
+- Se disuelven al cumplir su función o se renuevan en el siguiente ciclo
 
 ### Adopting Teams
 
-Equipos que operan nuevos modelos y generan mejora continua.
+- Redarquías tempranas que operan los nuevos modelos operativos
+- Mejora continua; embajadores; participantes de CoP
+- Al consolidarse: **son la nueva estructura normal**
 
 ### Onboarding Team
 
-Planifica e implementa la incorporación a redarquías.
+- Planifica y ejecuta el onboarding a las redarquías diseñadas
+- Broker de la mesa de flips
+- Establece interfaces (Team APIs) con áreas core de la organización
 
-### Core Evolution Team
+---
 
-Crea diseños organizacionales orientados al cliente y conecta evolución con estrategia.
+**Ver también:**
+- [Equipos y Roles: descripción completa →](/equipos/periferia-centro/)
+- [Ciclo de vida: Adopting Team →](/equipos/adopting-team/)
+- [Ciclo de vida: Mission Team →](/equipos/mission-team/)
+- [Flips: la unidad de negociación →](/evolucion/flips/)
