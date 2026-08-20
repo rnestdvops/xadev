@@ -1,36 +1,58 @@
 ---
 title: "Habilitadores de la Evolución"
-description: "Densidad social y organización alrededor del valor como habilitadores clave."
+description: "El modelo considera el trabajo sobre las estructuras fundamentales mediante la actividad continua sobre los dos habilitadores de cambio más importantes: Densidad Social y Organización alrededor del Valor."
 ---
 
-El modelo de evolución organizacional se apoya en dos habilitadores fundamentales que determinan la velocidad y profundidad de la transformación.
+El modelo considera el trabajo sobre las estructuras fundamentales (Formal, Informal, Valor) mediante la actividad continua sobre los dos habilitadores de cambio más importantes.
 
 ## Densidad Social
 
-Se refiere a la cantidad de personas de la organización afectadas por el proceso de evolución. El objetivo es incrementar la cantidad de individuos que comprenden e implementan las nuevas prácticas organizacionales de manera empírica, no solo desde un plano conceptual.
+Cantidad de personas de la organización afectadas. Actuar sobre este habilitador implica **incrementar la cantidad de personas que entienden, identifican y crean maestría propia** en el lenguaje, los conceptos y las prácticas necesarias para adoptar innovación y agilidad en el uso cotidiano.
 
 ## Organización alrededor del Valor
 
-Representa la capacidad de crear valor de manera autónoma y descentralizada, permitiendo que los equipos se reorganicen libremente sin intermediación jerárquica. Se basa en maestría y prácticas concretas para optimizar la experiencia del cliente.
+Capacidad de crear valor de manera autónoma y descentralizada para el ecosistema donde opera. Actuar sobre este habilitador implica **cambiar libremente la organización de las personas** para que estén cerca y sin intermediación de aquellas con quienes construyen valor, basadas en la maestría y las prácticas que les permiten lograr la mejor experiencia para sus clientes internos o externos, con la mayor eficiencia posible de acuerdo al contexto de operación.
 
-Ambos habilitadores requieren un **liderazgo invitacional** que repiense el qué, cómo y por qué organizacional.
+Estos habilitadores requieren de un **liderazgo invitacional** poderoso, que se anime a repensar el Qué, el Cómo y el Por Qué para generar autonomía y expandir la capacidad de transformación.
 
-## Medir el Avance
+## Medir el avance: ¿es posible?
 
-### Outcomes
-- Valor percibido por clientes internos y externos
+Cada organización debe proponerse una manera de entender el impacto que espera y el que está logrando con el proceso de transformación y evolución organizacional. Hay dos grandes tipos de indicadores:
 
-### Outputs
-- Cantidad de personas en equipos (Sponsors, Stakeholders, etc.)
-- Participantes en entrenamientos y espacios abiertos
-- Nuevas estructuras operando bajo modelos innovadores
+- **Outcomes:** valor percibido por los clientes externos e internos del proceso.
+- **Outputs:** cantidad de elementos cuantificables relacionados con el proceso.
 
-### Métricas de Negocio
-- Creación de valor sostenible
-- Tiempo y frecuencia de entregas
-- Recuperación ante fallos
-- Adaptabilidad organizacional
+### Radiadores del proceso
 
-## Duración de los Ciclos
+Los principales radiadores de la transformación se relacionan con los habilitadores:
 
-Se recomienda cadencia **trimestral** para lograr cambios tangibles, utilizando ciclos de adaptación y evolución integrados en un plan anual estructurado.
+**Densidad Social:**
+- Cantidad de personas que participan en equipos (Sponsors, Stakeholders, Abordaje, Misión, Adopción)
+- Cantidad de personas en el proceso de abordaje: entrenamientos, workshops, espacios abiertos, CoPs, otros
+
+**Valor:**
+- Nuevas redarquías iniciadas (equipos, equipos de equipos) operando bajo los nuevos modelos operativos
+- **Flips realizados:** cuánta organización legada pasó, de manera permanente, al nuevo modelo
+
+### Impacto en el negocio
+
+La evolución, una vez iniciada y en acción de manera orgánica, debe impactar en los objetivos y métricas naturales del negocio:
+
+- Creación de valor continuo y sostenible
+- Tiempo y frecuencia de entrega de productos y servicios
+- Tiempo de recuperación y estabilización ante fallos
+
+### Adaptabilidad
+
+Una de las métricas que incorporan las organizaciones luego de evolucionar es la **adaptabilidad**: la capacidad de adecuar las estructuras de creación de valor a los cambios de contexto sin penalizar a sus clientes y usuarios, a la vez que logrando crecer de acuerdo a los objetivos.
+
+## Duración de los ciclos
+
+Para crear y mantener el sentido de urgencia se sugiere mantener una cadencia de un trimestre (tres meses) para lograr cambios tangibles mediante los habilitadores, utilizando el ciclo de Adaptación para refinar y ajustar el impacto en el ciclo de Evolución siguiente. Ver [Explorar · Adaptar · Evolucionar →](/ciclos/exp-ada-evo/)
+
+---
+
+**Ver también:**
+- [Estructuras para la evolución →](/intro/estructuras/)
+- [Flips: la unidad de negociación →](/evolucion/flips/)
+- [Ciclos de Centro: Explorar · Adaptar · Evolucionar →](/ciclos/exp-ada-evo/)

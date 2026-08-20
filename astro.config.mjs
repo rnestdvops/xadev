@@ -44,6 +44,7 @@ export default defineConfig({
             { label: 'Fluidez vs. Eficiencia', slug: 'intro/fluidez' },
             { label: 'Habilitadores de la Evolución', slug: 'intro/habilitadores' },
             { label: 'La Organización Actual', slug: 'intro/org-actual' },
+            { label: 'Áreas tradicionales', slug: 'intro/areas-tradicionales' },
           ],
         },
         {
