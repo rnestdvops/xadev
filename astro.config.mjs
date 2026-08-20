@@ -45,6 +45,7 @@ export default defineConfig({
             { label: 'Habilitadores de la Evolución', slug: 'intro/habilitadores' },
             { label: 'La Organización Actual', slug: 'intro/org-actual' },
             { label: 'Áreas tradicionales', slug: 'intro/areas-tradicionales' },
+            { label: 'Organizaciones en Red', slug: 'intro/org-red' },
           ],
         },
         {
