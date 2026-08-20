@@ -59,8 +59,10 @@ export default defineConfig({
           label: 'Exploración, Adaptación y Evolución',
           collapsed: false,
           items: [
-            { label: 'Open Spaces de Exploración', slug: 'evolucion/open-spaces-exploracion' },
-            { label: 'Open Spaces de Adaptación', slug: 'evolucion/open-spaces-adaptacion' },
+            { label: 'El Open Space transformacional', slug: 'evolucion/open-space-transformacional' },
+            { label: 'Flips: la unidad de negociación', slug: 'evolucion/flips' },
+            { label: 'Ciclo de Exploración: Open Space mayor', slug: 'evolucion/open-spaces-exploracion' },
+            { label: 'Ciclo de Adaptación: apertura del timebox', slug: 'evolucion/open-spaces-adaptacion' },
             { label: 'Ciclo de Evolución: 10 Pasos', slug: 'evolucion/10-pasos' },
           ],
         },
